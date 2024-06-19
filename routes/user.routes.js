@@ -5,7 +5,7 @@ import {
   getUser,
   removeUser,
   updateUser,
-} from "../controllers/user.controller.js";
+} from "../controllers/user.controller_remote.js";
 import { myLogger } from "../middlewares/logger.js";
 
 const route = express.Router();
