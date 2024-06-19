@@ -6,6 +6,7 @@ import {
   removeUser,
   updateUser,
 } from "../controllers/user.controller.js";
+import { myLogger } from "../middlewares/logger.js";
 
 const route = express.Router();
 

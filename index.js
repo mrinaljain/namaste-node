@@ -2,6 +2,7 @@ import express from "express";
 import userRoute from "./routes/user.routes.js";
 import authRoute from "./routes/auth.routes.js";
 
+
 const app = express();
 
 // in order to enable access to the post request body
