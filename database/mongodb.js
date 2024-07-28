@@ -10,3 +10,7 @@ const connectDb = async function () {
 };
 
 export default connectDb;
+
+// const client = new MongoClient(url);
+// client.connect();
+//client.db(dbName);

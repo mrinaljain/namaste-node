@@ -1,9 +1,9 @@
 const fs = require("fs");
 
 // Read data from a file
-const data = fs.readFileSync("./file.txt");
+const data = fs.readFileSync("./file.txt", "utf8");
 
-console.log(data.toString());
+console.log(data);
 
 // Write data to a file
 
