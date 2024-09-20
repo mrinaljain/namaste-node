@@ -1,0 +1,4 @@
+- non blocking i/o
+- blocking the main thread
+- synchronous calls blocking
+- 
