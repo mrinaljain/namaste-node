@@ -2,7 +2,7 @@
 
 
 
-![NodeJS Runtime Flow Chart](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![NodeJS Runtime Flow Chart](https://github.com/[mrinaljain]/[namaste-nod]/blob/[master]/nodeJS_runtime.png?raw=true)
 
 ### Global object
 
