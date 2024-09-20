@@ -2,7 +2,7 @@
 
 ## NodeJS Runtime Flow Chart
 
-![NodeJS Runtime Flow Chart](https://github.com/mrinaljain/namaste-nod/blob/master/nodeJS_runtime.png?raw=true)
+![NodeJS Runtime Flow Chart](https://github.com/mrinaljain/namaste-node/blob/master/nodeJS_runtime.png?raw=true)
 
 ### Global object
 
