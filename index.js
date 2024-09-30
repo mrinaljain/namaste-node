@@ -2,6 +2,7 @@ import express from "express";
 import userRoute from "./routes/user.routes.js";
 import authRoute from "./routes/auth.routes.js";
 import connectDb from "./database/mongodb.js";
+import "./database/database.js";
 import "dotenv/config";
 const app = express();
 
@@ -19,6 +20,6 @@ app.use("/api/user", userRoute);
 app.use("/api/auth", authRoute);
 
 app.listen(5003, async () => {
-  await connectDb();
+  // await connectDb();
   console.log("App is running on port 5011");
 });

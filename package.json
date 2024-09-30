@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "namaste-node",
   "main": "index.js",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "start": "nodemon ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,7 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
-    "mongodb": "^6.8.0",
+    "mongodb": "^6.9.0",
     "mongoose": "^8.4.3"
   }
 }
