@@ -7,6 +7,9 @@ Streams are a type of interface in nodejs which help us to move data which is in
 - Duplex Stream 
 - Transform Stream
 
+![Ecamples](https://cdn-media-1.freecodecamp.org/images/1*lhOvZiDrVbzF8_l8QX3ACw.png?raw=true)
+
+
 ## Example Usage of stream for moving content of one file to another in chunks using stream
 
 ```
