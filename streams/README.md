@@ -9,7 +9,8 @@ Streams are a type of interface in nodejs which help us to move data which is in
 
 ## Example Usage of stream for moving content of one file to another in chunks using stream
 
-`let readableStream = fs.createReadStream("./file1.txt", {
+```
+let readableStream = fs.createReadStream("./file1.txt", {
   encoding: "utf-8",
   highWaterMark: 2,
 });
@@ -19,4 +20,5 @@ let writableStream = fs.createWriteStream("./file2.txt");
 readableStream.on("data", (chunk) => {
   console.log(chunk);
   writableStream.write(chunk);
-});`
+});
+```
