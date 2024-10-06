@@ -23,5 +23,10 @@ JWT token has 3 main components
   - Map the tokens to the device 
   - Implement refresh token technique to frequently change token
   - Implement token blacklisting.
+
+  ### JWT Issues
+   - Cookie Hijacking
+
   ## Questions
+  - [High Level JWT Questions ](https://www.javastructures.com/misc/jwt)
   - Could you explain the different parts of a JWT token?
