@@ -1,5 +1,4 @@
 # Middlewares
----
 Middleware functions are the normal  javascriptfunctions which we call request handlers in Node.js.
 Middleware have  extra next()functionality which diffrentiates them with other request handelers.
 
@@ -17,3 +16,11 @@ const AuthMiddleware = (req , res, next)=>{
    next();
 }
 ```
+
+
+### Types of Middlewarss
+- Logging
+- Auth
+- Modifiers
+- Custom
+- Authorization
