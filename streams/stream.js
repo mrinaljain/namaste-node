@@ -17,3 +17,12 @@ readableStream.on("data", (chunk) => {
   console.log(chunk);
   writableStream.write(chunk);
 });
+
+readableStream.on("end", () => {
+  writableStream.end();
+});
+
+
+// alternate method 
+// readableSrc.pipe(writableDest);
+

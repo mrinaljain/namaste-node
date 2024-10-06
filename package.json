@@ -17,6 +17,7 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
+    "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.9.0",
     "mongoose": "^8.4.3"
   }
