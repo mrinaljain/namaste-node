@@ -1,16 +1,35 @@
+# Node JS
 
-
+This repository contains a series of exercises and projects to help learn and understand the basics of Node.js and related technologies.
 ## NodeJS Runtime Flow Chart
 
 ![NodeJS Runtime Flow Chart](https://github.com/mrinaljain/namaste-node/blob/master/nodeJS_runtime.png?raw=true)
 
-### Global object
 
-- Global object  is the super power provided by the NodeJS which includes  external methods like  log, timeout, fetch etc
-- 
-- globalThis is the common window  object reffrence introduced in 2020
 
-Find Process id of a port
--- lsof -i :5235
--- kill process id  
-kill -9 2823 
+## About
+
+This repository is intended to be a resource for anyone looking to learn Node.js from the ground up. It covers the basic concepts like creating a simple server, working with APIs, interacting with databases, and more.
+
+## Installation
+
+Before you can run the code in this repository, make sure you have Node.js installed on your machine. You can download it from [Node.js official website](https://nodejs.org/).
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/mrinaljain/namaste-node
+
+
+## Table of Contents
+
+1. 
+2. 
+3. JWT Authentication 
+
+
+---
+
+### Questions
+
+

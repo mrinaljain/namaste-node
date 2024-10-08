@@ -13,6 +13,11 @@ const userSchema = Schema(
   { timeStamps: true }
 );
 
+userSchema.methods = {};
+
+userSchema.pre("save", () => {});
+userSchema.pre("find", () => {});
+
 const User = model("User", userSchema);
 export default User;
 
