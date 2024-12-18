@@ -31,5 +31,8 @@ Before you can run the code in this repository, make sure you have Node.js insta
 ---
 
 ### Questions
+1. How to scale node Apps?
+2. How to release Node apps effectively?
+3. Inner join or left Join which is fast?
 
 
