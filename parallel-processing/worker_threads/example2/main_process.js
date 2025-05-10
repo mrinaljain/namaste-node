@@ -1,7 +1,8 @@
 import http from "http";
 import { Worker } from "worker_threads";
+
 const server = http.createServer((req, res) => {
-  const worker = new Worker("./child_process.js");
+  const worker = new Worker("./thread.js");
   // ! handeling CORS
   switch (req.url) {
     case "/":
@@ -9,11 +10,10 @@ const server = http.createServer((req, res) => {
       res.end(JSON.stringify({ greetings: "Hello World" }));
       break;
     case "/slow":
-      worker.on("message", (j) => {
+      worker.on("message", (data) => {
         res.setHeader("Content-Type", "application/json");
-        res.end(JSON.stringify({ data: j }));
+        res.end(JSON.stringify({ data: data }));
       });
-
       break;
     default:
       res.write("<h1>Welcome to default </h1>");

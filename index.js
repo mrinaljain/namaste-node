@@ -20,6 +20,6 @@ app.use("/api/user", userRoute);
 app.use("/api/auth", authRoute);
 
 app.listen(5003, async () => {
-  // await connectDb();
+  await connectDb();
   console.log("App is running on port 5011");
 });

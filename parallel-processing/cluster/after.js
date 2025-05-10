@@ -2,7 +2,7 @@
 import cluster from "node:cluster";
 import os from "node:os";
 
-if (cluster.isMaster) {
+if (cluster.isPrimary) {
   const cpus = os.cpus().length;
 
   console.log(`Forking for ${cpus} CPUs`);
