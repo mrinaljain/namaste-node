@@ -9,3 +9,8 @@
  Another solution is to run multiple chld processes from the parent process that will share the same memory and stream the work back once complet, this is known as **Worker Threads**.
 
 
+### all options available for parallel processing 
+- cluster module
+- child_process
+- worker_threads
+- Kafka , messseging queus
