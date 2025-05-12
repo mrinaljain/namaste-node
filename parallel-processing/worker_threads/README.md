@@ -1,4 +1,4 @@
-# Worker Thread  
+# Worker Thread   (thread-level parallelism)
 : lightweight threads within the same process.
 
 Another way of parallel processing with the help of threads , on the same instances.

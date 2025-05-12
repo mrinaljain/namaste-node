@@ -1,4 +1,4 @@
-# Child Processes
+# Child Processes (process-level parallelism)
 child_process allows you to spawn new OS-level processes from your Node.js application. These processes run independently and can be used to:
 
 - Run CPU-intensive tasks separately
